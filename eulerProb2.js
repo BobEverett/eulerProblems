@@ -31,7 +31,7 @@ for (let i = 0;
   }
 
   if ((fibTemp % 2) == 0) {
-    fibSum += (fibTemp + 1)
+    fibSum += (fibTemp)
     fibDiv2.push(fibTemp)
   }
 

@@ -6,7 +6,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 */
 
-// returns the largest prime factor for a range of numbers
+/* returns the largest prime factor for a range of numbers
 
 function getFactors(num) {
   let numfactors = [];
@@ -61,7 +61,7 @@ for (let j = 356765; j < 356855; j++) {
 
 
 
-/*
+*/
 
 // Returns the largest prime factor for one number:
 
@@ -90,7 +90,7 @@ function primeChecker(num) {
   return prime;
 }
 
-let number = 111;
+let number = 600851475143;
 let factors = getFactors(number);
 let primeFactors = [];
 
@@ -105,7 +105,7 @@ console.log(`\nThe prime factors are (${primeFactors}).\n`);
 console.log(`The largest prime factor of ${number} is ${Math.max(...primeFactors)}.\n`);
 
 
-*/
+
 
 
 
